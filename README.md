@@ -1,100 +1,105 @@
-Oracle_Pdb_ass_II_28706_Mike 
+Oracle PDB Assignment II – 28706
+Student Name: Tuyiramye Mike
+Student ID: 28706
+Repository: oracle_pdb_ass_II_28706_MIKE
+Visibility: Public
 
-Student Name: Tuyiramye Mike 
-Student ID: 28706 
+Overview of Tasks
 
-Repository: oracle_pdb_ass_II_28706_MIKE 
-Visibility: Public  
+This repository contains the documentation and evidence for the following Oracle Pluggable Database (PDB) practical tasks:
 
- 1. Overview of Tasks
+Task 1: Create a Pluggable Database (PDB) and a user
+Task 2: Create and delete a temporary PDB
+Task 3: Oracle Enterprise Manager (OEM) access
+Task 4: Presentation available in this repository
 
-This repository contains the documentation and evidence for Oracle Pluggable Database practical tasks:
+Repository Link:
+https://github.com/Mike26-prog/oracle_pdb_ass_II_-28706-_-Mike-/tree/main
 
-Task 1: Create a Pluggable Database (PDB) and a user.
-Task 2: Create and delete a temporary PDB.
-Task 3: Oracle Enterprise Manager (OEM) access.
-Task 4: Pesentation on through https://github.com/Mike26-prog/oracle_pdb_ass_II_-28706-_-Mike-/tree/main
+Oracle Environment Used
 
+Oracle Version: Oracle 19c
+Operating System: Windows
+Oracle Tools: SQL*Plus
+Non-Oracle Tools: Command Prompt
 
- 2. Oracle Environment Used
+Task 1 – Create a PDB and User
 
-Oracle Version: Oracle 19c    
-Operating System: Windows 
-Tools Used: SQL*Plus 
-
-3. Non-oracle tools
-
- command prompt
-
-3. Task 1 – Create a PDB and User
-
-### Details
-
- PDB Name: MI_PDB_28706  
-Username: MI_PLSQLAUCA_28706  
+Details
+PDB Name: MI_PDB_28706
+Username: MI_PLSQLAUCA_28706
 Password: auca
 
 Description
+A new Pluggable Database was created using the required naming standards.
+A user was successfully created inside the PDB and verified.
 
-A new Pluggable Database created using the required naming settings. and 
-A user was created inside the PDB and verified successfully.
+The Container Database (CDB) name is visible in the screenshots.
 
-The container database (CDB) name is visible in the screenshot.
+Evidence
+Screenshots located in Task 1 folder.
 
- Evidence
+The screenshots show:
+PDB creation command
+PDB open state
+User creation
+Container (CDB) name
 
- screenschots in task 1 folder
+Task 2 – Temporary PDB Creation and Deletion
 
-This screenshot shows:
-PDB creation command  
-PDB open state  
-Username created  
-Container (CDB) name  
-
-4. Task 2 Temporary PDB Creation and Deletion
-
-description
-
+Details
 Temporary PDB Name: MI_pdb_to_delete_28706
 
 Description
+A temporary PDB was created and verified using actual SQL commands.
+After verification, the PDB was closed and deleted completely.
 
-A temporary PDB was created and verified using acutal commands , and  
-After verification, the PDB was closed and deleted completely using.
-
+Command used:
 ALTER PLUGGABLE DATABASE MI_to_delete_pdb_28706 CLOSE IMMEDIATE;
-
 
 The deletion was confirmed by checking that it no longer appears in v$pdbs.
 
- Evidence
+Evidence
+Screenshots located in Task 2 folder.
 
-Screenshot paths: Creation and Deletion: screenshots in task 2 folder
+Shows:
+PDB creation
+PDB open
+PDB close
+PDB deletion
+Verification from v$pdbs
 
-5. Task 3 – Oracle Enterprise Manager (OEM)
+Task 3 – Oracle Enterprise Manager (OEM)
 
- Status: Not Completed
+Status: Not Completed
 
-these task were arlesdy started but the time is up so, it will be adjourned later after marking this assignment.
-but it has screenshots where listener is opened
+This task was started but could not be fully completed due to time limitations.
+However, screenshots show that the listener was successfully opened.
 
-opening listener: screenshot in task 3 folder
+Evidence
+Screenshots located in Task 3 folder.
 
-6. Challenges Faced
+Challenges Faced
 
-the time was not enough to complete it and my computer has faced some problem of crashing
+Limited time to complete all tasks
+System instability and computer crashes
+OEM setup required more configuration time
 
-7. Integrity Statement
+Integrity Statement
 
-I declare that this assignment is entirely my own work and  
-all tasks were performed by me and the evidence provided is valid.
+I declare that this assignment is entirely my own work.
+All tasks were performed by me, and the evidence provided is genuine and valid.
 
+Submission Information
 
+Repository Link:
+https://github.com/Mike26-prog/oracle_pdb_ass_II_-28706-_-Mike-/tree/main
 
-## 8. Submission Information
+PDB Created: MI_PDB_28706
 
-Repository Link: https://github.com/Mike26-prog/oracle_pdb_ass_II_-28706-_-Mike-/tree/main
-PDB Name Created:MI_PDB_28706   
-Issues Encountered: 2
+Issues Encountered:
+System crashes and insufficient time for OEM completion
 
-
+Author
+Tuyiramye Mike
+Student ID: 28706
